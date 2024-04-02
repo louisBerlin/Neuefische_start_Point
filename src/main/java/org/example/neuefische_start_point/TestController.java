@@ -2,6 +2,7 @@ package org.example.neuefische_start_point;
 
 
 import org.springframework.http.MediaType;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -68,5 +69,9 @@ public class TestController {
        messages.remove(id);
        return "Item with ID " + id + " removed successfully.";
    }
+
+
+
+
 
 }
